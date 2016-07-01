@@ -1,0 +1,54 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+.card {
+  width: 300px;
+  box-shadow: 5px 8px 7px 2px #ccc;
+  -webkit-box-shadow:5px 8px 7px 2px #ccc;;
+  -moz-box-shadow: 5px 8px 7px 2px #ccc;;
+  border: 1px solid #ccc;
+  padding: 1% 2%;
+  margin: 0 auto;
+  background-color: hsla(126, 49%, 68%, 0.15);
+}
+
+.title {
+  font-size: 1.4em;
+  padding: 0 40%;
+}
+
+.info {
+  padding: 0 4%;
+  border: 1px solid #ccc;
+}
+
+.iguanaPic {
+  width: 100%;
+  margin: 2% 0;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+}
+
+.listItem {
+  list-style: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media screen and (max-width:400px) {
+  .card {
+    width: 90vw;
+    margin: 0;
+  }
+}
